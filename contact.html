@@ -26,7 +26,7 @@
     <h3><font size="7">Contact</font></h3>
     <div class="gl">
    
-      <form name="contact" method=”POST” action="success.html" data-netlify="true">
+      <!-- <form name="contact" method=”POST” action="success.html" data-netlify="true">
         <p>お名前／会社名*<br>
           <input type="text" name="example2" size="30"></p>
         <p>メールアドレス*<br>
@@ -38,9 +38,29 @@
         <p>お問い合わせ内容*<br>
           <textarea rows="4" name="body" cols="56"></textarea><br></p>
 
-          <button type="submit">Send</button>
+          <input type="submit" value="送信する">
           
     
+      </form> -->
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
     </div>
    
