@@ -84,8 +84,9 @@ nav a {
   /* background: rgba(255, 255, 255, .3); */
   padding: 4px;
   border-radius: 8px;
-  color: #fff;
+  color: #fff; 
   position: absolute;
+  
   top: 45%;
   left: 5%;
 }
@@ -96,13 +97,15 @@ h2 {
   top: 90px;
   left: 45%;
   
+  text-shadow: #000 2px 2px 0px
 }
 h3 {
   color: #fff;
   position: absolute;
-  top: 90px;
-  left: 15%;
+  top: -70px;
+  left: 5%;
   
+  text-shadow: #000 4px 4px 0px
 }
 h4 {
   color: #fff;
@@ -169,7 +172,7 @@ p{
   background: url(./img/icon.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  animation: mul 2s ease 0.9s  infinite alternate-reverse ;
+  animation: mul 3s ease 0.9s  infinite alternate-reverse ;
   mix-blend-mode: multiply; 
   position: absolute;
 }
@@ -186,10 +189,10 @@ p{
 @keyframes mul {
 
   0% {
-    opacity: 1;
+    opacity: 0;
     
   }
-  10% {
+  15% {
     opacity: 0;
     
   }
@@ -197,11 +200,39 @@ p{
     opacity: 1;
     
   }
+  25% {
+    opacity: 0;
+    
+  }
 
+  60% {
+    opacity: 0.5;
+    
+  }
 
   100% {
     opacity: 0;
     
   }
 
+
+}
+#p{
+  margin: 4px 5%;
+  width: 50%;
+  height: 20%;
+  top: 5%;
+  left: 20%;
+}
+#q{
+  width: 100%;
+  height: 100%;
+}
+#o{
+  position: absolute;
+  background: rgba(0, 0, 0, .0);
+  width: 70%;
+  height: 75%;
+  top: 160px;
+  left: 15%;
 }

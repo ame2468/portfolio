@@ -23,9 +23,9 @@
         <li><a href="contact.html">contact</a></li>
       </ul>
     </nav>
-    <h3><font size="7">Contact</font></h3>
+    
     <div class="gl">
-   
+      <h3><font size="7">Contact</font></h3>
       <!-- <form name="contact" method=”POST” action="success.html" data-netlify="true">
         <p>お名前／会社名*<br>
           <input type="text" name="example2" size="30"></p>
@@ -43,19 +43,20 @@
     
       </form> -->
       <form name="contact" method="POST" data-netlify="true">
-        <p>お名前*<br>
-          <input type="text" name="name" required size="30"></p>
-        <p>メールアドレス*<br>
-          <input type="email" name="addr" required size="30"></p>
-        <p>納期<br>
-          <input type="text" name="time" size="30"></p>
-        <p>ご予算<br>
-          <input type="text" name="money" size="30"></p>
-        <p>お問い合わせ内容*<br>
-          <textarea rows="4" name="body" required cols="56"></textarea><br></p>
+        <p id="p">お名前<font color="#ff0000">*</font><br>
+          <input id="q" type="text" name="name" required ></p>
+        <p id="p">メールアドレス<font color="#ff0000">*</font><br>
+          <input id="q" type="email" name="addr" required ></p>
+        <p id="p">納期<br>
+          <input id="q" type="text" name="time" ></p>
+        <p id="p">ご予算<br>
+          <input id="q" type="text" name="money" ></p>
+        <p id="p">お問い合わせ内容<font color="#ff0000">*</font><br>
+          <textarea  id="q"rows="4" name="body" required cols="56"></textarea><br></p>
 
-          <input type="submit" value="送信する">
+          <input id="p" type="submit" value="送信する">
         </p>
+        
       </form>
     </div>
    
