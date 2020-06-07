@@ -43,16 +43,16 @@
     
       </form> -->
       <form name="contact" method="POST" data-netlify="true">
-        <p>お名前／会社名*<br>
-          <input type="text" name="name" size="30"></p>
+        <p>お名前*<br>
+          <input type="text" name="name" required size="30"></p>
         <p>メールアドレス*<br>
-          <input type="text" name="addr" size="30"></p>
-        <p>納期／スケジュール<br>
+          <input type="email" name="addr" required size="30"></p>
+        <p>納期<br>
           <input type="text" name="time" size="30"></p>
-        <p>ご予算／報酬額<br>
+        <p>ご予算<br>
           <input type="text" name="money" size="30"></p>
         <p>お問い合わせ内容*<br>
-          <textarea rows="4" name="body" cols="56"></textarea><br></p>
+          <textarea rows="4" name="body" required cols="56"></textarea><br></p>
 
           <input type="submit" value="送信する">
         </p>
