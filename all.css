@@ -1,0 +1,213 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html {
+	overflow: hidden;
+	height: 100%
+}
+body {
+	background: #FFF;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: url(../img/top.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.square {
+	width: 100%;
+	height: 100px;
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	z-index: 99;
+}
+#first {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFF;
+	width: 100%;
+	height: 100%;
+	/*user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;*/
+}
+.center_logo {
+
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	
+}
+.center_log {
+	position: relative;
+}
+#backgroud {
+	position: relative;
+}
+.main_parts div {
+	position: relative;
+}
+.main_parts img {
+	position: absolute;
+}
+.main_parts .bottom_img img {
+	position: absolute;
+	bottom: 0;
+}
+.smart_top {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: none;
+}
+.smart_parts div {
+	position: relative;
+}
+.catch {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	margin-left: 10px;
+	width: 20%;
+	min-width: 300px;
+	height: 100px;
+}
+.logo {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 33%;
+	min-width: 300px;
+	max-width: 500px;
+	margin: auto;
+}
+.makura_logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 8%;
+	min-width: 50px;
+	max-width: 100px;
+	margin: auto;
+	margin-top: 10px;
+	margin-left: 10px
+}
+.main_info {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 25%;
+	min-width: 200px;
+	max-width: 300px;
+	margin: auto;
+	margin-right: 10px;
+}
+#all {
+	position: relative;
+	background: #FFF;
+	height: 100%;
+	overflow: scroll;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	background: url(../img/top_bg.jpg);
+	background-position: center;
+	background-size: cover;
+}
+ul li {
+	list-style: none;
+	width: 100%;
+}
+#back_btn_guide {
+	position: relative;
+	max-width: 842px;
+	width: 100%;
+}
+#back_btn {
+	position: absolute;
+	right: 0;
+	bottom: 15%;
+	width: 50px;
+	cursor: pointer;
+	opacity: 0.3;
+	margin-right: 30px;
+}
+#character_erea {
+	display: block;
+	background-color: #fff;
+}
+.caracter_content {
+	max-width: 842px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0 auto;
+}
+.chara_flex:nth-child(1) {
+	align-self: flex-start;
+}
+.chara_flex:nth-child(2) {
+	align-self: center;
+}
+.chara_flex:nth-child(3) {
+	align-self: center;
+}
+.main {
+	max-width: 50%;
+	height: 100%;
+}
+.sub {
+	max-width: 237px;
+}
+.thumb {
+	margin-top: 50px;
+	width: 100%;
+}
+.thumb li {
+	padding: 5px;
+	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+.title {
+	padding-left: 10px;
+	max-width: 95px;
+	height: 100%;
+}
+.name {
+	margin-top: 20%;
+	border-bottom: solid #666 1px;
+}
+.thumb li {
+	opacity: 0.8;
+}
+.thumb img {
+	width: 100%;
+}
+.name img {
+	width: 100%;
+}
+.main img {
+	display: block;
+	width: 100%;
+}
